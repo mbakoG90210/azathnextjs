@@ -1,0 +1,45 @@
+/*--------head------------*/
+.head {
+    padding: 20px 0;
+    color: #fff;
+  }
+  .logo h1 {
+    font-size: 35px;
+    font-weight: 900;
+  }
+  .head .icon {
+    margin-left: 10px;
+  }
+  /*--------head------------*/
+  /*--------header------------ */
+  .header {
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 30px;
+  }
+  .header .nav {
+    display: flex !important;
+  }
+  
+  .start {
+    background-color: #1eb2a6;
+    padding: 30px 70px;
+    color: #fff;
+    clip-path: polygon(10% 0%, 100% 0, 100% 100%, 0% 100%);
+  }
+  .toggle {
+    display: none;
+  }
+  /*--------header------------ */
+  
+  @media screen and (max-width: 768px) {
+    .start {
+      clip-path: none;
+    }
+    .header {
+      margin: 0;
+      background-color: #1eb2a6;
+      position: relative;
+    }
+}
+
+  
