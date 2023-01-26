@@ -16,7 +16,7 @@ module.exports = {
       }
     }
   },
-  plugins: [require("daisyui"),('tailwind-clip-path'),],
+  plugins: [require("daisyui"),require('tailwind-clip-path'),],
 
     // daisyUI config (optional)
     daisyui: {
