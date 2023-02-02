@@ -1,7 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Countdown from "../components/countdown";
+import Timer from "../components/timer";
+import Contact from "../components/Subscribeform";
 
 function underConstruction() {
   return (
@@ -44,69 +45,8 @@ function underConstruction() {
                 We Are <span className="text-yellow-500">Coming</span> Soon
               </h2>
 
-              <section className="">
-                <section className="flex flex-col items-center justify-center min-h-full min-w-full">
-                  <div className="">
-                    <div className="text-yellow p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-yellow-400">
-                      <i className="fas fa-clock text-white text-5xl"></i>  
-                    </div>
-                    
-                  </div>
-                  <div className="mt-4  p-10 grid grid-cols-4 rounded border-2 border-teal-600 text-white text-3xl">
-                    <section>
-                      <p>10</p>
-                      <p>
-                        <small>Days</small>
-                      </p>
-                    </section>
-
-                    <section>
-                      <p>9</p>
-                      <p>
-                        <small>Hrs</small>
-                      </p>
-                    </section>
-
-                    <section>
-                      <p>8</p>
-                      <p>
-                        <small>Mins</small>
-                      </p>
-                    </section>
-
-                    <section>
-                      <p>7</p>
-                      <p>
-                        <small>Secs</small>
-                      </p>
-                    </section>
-                  </div>
-                </section>
-              </section>
-              <div className="flex flex-col space-y-4 mt-16 px-6">
-                <p className="text-gray-300 uppercase text-sm">
-                  Notify me when it's ready
-                </p>
-                <form>
-                  <div className="form-control w-80">
-                    <label className="label">
-                      <span className="label-text">
-                        Enter your email address
-                      </span>
-                    </label>
-                    <div>
-                      <input
-                        type="text"
-                        placeholder="username@site.com"
-                        className="input input-bordered w-full pr-16"
-                      />
-                      <button className="btn btn-yellow-600 absolute rounded-l-none">
-                        Subscribe
-                      </button>
-                    </div>
-                  </div>
-                </form>
-              </div>
+              <Timer />
+              <Contact />
             </div>
           </div>
           <div
