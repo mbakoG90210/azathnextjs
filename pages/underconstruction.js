@@ -76,7 +76,7 @@ function underConstruction() {
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-primary">
-                      <i className="fas fa-award" />
+                      <i className="fas fa-code" />
                     </div>
                     <h6 className="text-md font-semibold">
                       <span className=" text text-primary-focus">Custom </span>{" "}
@@ -90,7 +90,7 @@ function underConstruction() {
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-xl rounded-full bg-secondary">
-                      <i className="fas fa-retweet" />
+                      <i className="fas fa-cubes" />
                     </div>
                     <h6 className="text-md font-semibold">
                       One Stop shop for{" "}
@@ -108,7 +108,7 @@ function underConstruction() {
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-accent">
-                      <i className="fas fa-fingerprint" />
+                      <i className="fas fa-cloud" />
                     </div>
                     <h6 className="text-md font-semibold">
                       Cloud Computing & Enteprise{" "}
