@@ -4,14 +4,16 @@ import { toast, ToastContainer } from "react-toastify";
 export default function Contact() {
   async function handleSubmit(event) {
     event.preventDefault();
-    toast.success("Thank you for subscribing!", {position: "top-center",
+    toast.success("Thank you for subscribing!", {
+    className: "bg-accent-focus text-white z-50",
+    position: "top-center",
     autoClose: 3000,
     hideProgressBar: false,
     closeOnClick: true,
     pauseOnHover: true,
     draggable: true,
     progress: undefined,
-    theme: "light",});
+    theme: "colored",});
     const formData = new FormData(event.target);
 
     formData.append("access_key", "64624977-1421-4512-8dc6-1d302c53fd3d");
@@ -36,7 +38,7 @@ export default function Contact() {
   return (
     <>
       <ToastContainer
-        
+        className="bg-accent-focus text-white z-50"
         position="top-center"
         autoClose={3000}
         hideProgressBar={false}
@@ -46,6 +48,7 @@ export default function Contact() {
         pauseOnFocusLoss
         draggable
         pauseOnHover
+        theme="colored"
       />
       <div className="flex flex-col space-y-4 mt-16 px-6">
         <p className="text-gray-300 uppercase text-sm">

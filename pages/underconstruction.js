@@ -41,9 +41,9 @@ function underConstruction() {
             />
 
             <div className="card-body glass">
-              <h2 className="mx-auto items-center justify-center text-4xl lg:text-5xl xl:text-6xl text-gray-200 tracking-wider font-bold font-serif mt-12 text-center md:text-left">
+              <h6 className="mx-auto items-center justify-center text-4xl lg:text-5xl xl:text-6xl text-gray-200 tracking-wider font-bold font-serif mt-12 text-center md:text-left">
                 We Are <span className="text-yellow-500">Coming</span> Soon
-              </h2>
+              </h6>
 
               <Timer />
               <Contact />
@@ -75,42 +75,49 @@ function underConstruction() {
               <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
+                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-primary">
                       <i className="fas fa-award" />
                     </div>
-                    <h6 className="text-xl font-semibold">Awarded Agency</h6>
-                    <p className="mt-2 mb-4 text-blueGray-500">
-                      Divide details about your product or agency work into
-                      parts. A paragraph describing a feature will be enough.
-                    </p>
+                    <h6 className="text-md font-semibold">
+                      <span className=" text text-primary-focus">Custom </span>{" "}
+                      Software Development
+                    </h6>
+
                   </div>
                 </div>
               </div>
               <div className="w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
+                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-xl rounded-full bg-secondary">
                       <i className="fas fa-retweet" />
                     </div>
-                    <h6 className="text-xl font-semibold">Free Revisions</h6>
-                    <p className="mt-2 mb-4 text-blueGray-500">
-                      Keep you user engaged by providing meaningful information.
-                      Remember that by this time, the user is curious.
-                    </p>
+                    <h6 className="text-md font-semibold">
+                      One Stop shop for{" "}
+                      <span className=" text text-secondary-focus">
+                        {" "}
+                        Blockchain{" "}
+                      </span>
+                      As-A-Service
+                    </h6>
+                    
                   </div>
                 </div>
               </div>
               <div className="pt-6 w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
+                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-accent">
                       <i className="fas fa-fingerprint" />
                     </div>
-                    <h6 className="text-xl font-semibold">Verified Company</h6>
-                    <p className="mt-2 mb-4 text-blueGray-500">
-                      Write a few lines about each one. A paragraph describing a
-                      feature will be enough. Keep you user engaged!
-                    </p>
+                    <h6 className="text-md font-semibold">
+                      Cloud Computing & Enteprise{" "}
+                      <span className=" text text-accent-focus">
+                        {" "}
+                        Digital Transformation
+                      </span>
+                    </h6>
+                    
                   </div>
                 </div>
               </div>
