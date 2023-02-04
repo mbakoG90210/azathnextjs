@@ -38,7 +38,7 @@ export default function Contact() {
   return (
     <>
       <ToastContainer
-        className="bg-accent-focus text-white z-50"
+        className="justify-center items-center text-white z-50"
         position="top-center"
         autoClose={3000}
         hideProgressBar={false}
